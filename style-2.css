@@ -1,0 +1,144 @@
+body {
+    background-color: #007fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    padding: 3%;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #007fff;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #007fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input {
+    font: inherit;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #007fff;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(150, 150, 150);
+}
+
+p {
+    font: Roboto, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+#Login {
+    background-color: #007fff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-close {
+    font-weight: bold;
+    color: #007fff;
+    position: absolute;
+    top: 36.5%;
+    right: 34.5%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilos generales */
+body {
+    background-color: #007fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces en la navegación */
+nav a {
+    text-decoration: none;
+    color: #007fff;
+    font-weight: bold;
+    padding: 10px 20px; /* Añadir relleno para hacer cuadrados */
+    border: 2px solid #007fff; /* Añadir un borde para hacer cuadrados */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: color 0.3s; /* Transición de color al pasar el ratón */
+}
+
+/* Estilo al pasar el ratón por encima de los enlaces en la navegación */
+nav a:hover {
+    color: #0055b3;
+    background-color: #007fff;
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+}
+
+/* Estilos para los enlaces fuera de la navegación */
+a {
+    text-decoration: none;
+    color: #007fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Estilo al pasar el ratón por encima de los enlaces fuera de la navegación */
+a:hover {
+    color: #0055b3;
+}

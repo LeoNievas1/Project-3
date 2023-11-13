@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    background-color: #007fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces en la navegación */
+nav a {
+    text-decoration: none;
+    color: #007fff;
+    font-weight: bold;
+    padding: 10px 20px; /* Añadir relleno para hacer cuadrados */
+    border: 2px solid #007fff; /* Añadir un borde para hacer cuadrados */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    transition: color 0.3s; /* Transición de color al pasar el ratón */
+}
+
+/* Estilo al pasar el ratón por encima de los enlaces en la navegación */
+nav a:hover {
+    color: #0055b3;
+    background-color: #007fff;
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+}
+
+/* Estilos para los enlaces fuera de la navegación */
+a {
+    text-decoration: none;
+    color: #007fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Estilo al pasar el ratón por encima de los enlaces fuera de la navegación */
+a:hover {
+    color: #0055b3;
+}
